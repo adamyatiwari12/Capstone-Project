@@ -416,14 +416,13 @@ border: 1.5px solid #5C5C5C33;
 }
 #contact>p{
     font-family: Plus Jakarta Sans;
-font-size: 3vw;
+font-size: 2.5vw;
 font-weight: 500;
 line-height: 24px;
 text-align: center;
 }
-@media (max-width:1000px){
+@media (max-width:750px){
     nav,.row{
         flex-direction: column;
     }
-
 }
