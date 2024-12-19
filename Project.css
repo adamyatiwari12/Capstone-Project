@@ -156,7 +156,6 @@ border: 0px 0px 1.5px 0px;
 height: auto;
 padding: 52px 0px 52px 0px;
 gap: 52px;
-background: #FCFCFC;
 display: flex;
 }
 .box{
@@ -421,7 +420,7 @@ font-weight: 500;
 line-height: 24px;
 text-align: center;
 }
-@media (max-width:750px){
+@media screen and (max-width:750px){
     nav,.row{
         flex-direction: column;
     }
